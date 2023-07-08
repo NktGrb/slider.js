@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+h2 {
+    color: #E3B873;
+    font-size: 27px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    letter-spacing: -1.89px;
+    text-transform: uppercase;
+}
+h3 {
+    color: #E3B873;
+    font-size: 18px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    text-transform: uppercase;
+}
+p {
+    color: #FFF;
+    font-size: 14px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190.96%;
+}
+
+body {
+    font-family: 'Nunito Sans', 'Yeseva One', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #131313;
+}
+.slide {
+    display: flex;
+    overflow: hidden;
+    gap: 50px;
+}
+.slider-up {
+    /* display: flex; */
+    flex-wrap: wrap;
+    height: 50px;
+    box-sizing: border-box;
+}
+.slider-up li {
+    list-style: none;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.slider-up li:hover {
+    color: #E3B873;
+    padding-bottom: 1px;
+    border-bottom: 1px #E3B873 solid;
+}
+.slider-up ul {
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    gap: 60.5px;
+    padding-left: 485px;
+}
+.slider {
+    overflow: hidden;
+}
+.slider-info {
+    display: flex;
+    flex-shrink: 0;
+    color: white;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+    gap: 124px;
+}
+.info-sochi {
+    gap: 173px;
+}
+.info-low {
+    gap: 96px;
+}
+.slider-line {
+    display: flex;
+    transition: all ease 1s;
+}
+
+.slide-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.dots {
+    display: flex;
+    padding: 2.4px 0px 0px 10px;
+    gap: 10px;
+}
+
+.dot {
+    display: block;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    background: #FFFFFF4D;
+    border-radius: 30px;
+}
+
+.dot:active {
+    background-color:#FFFFFF;
+  }
+
+.button {
+    border: 0;
+    width: 42px;
+    height: 30px;
+}
+
+.slider-prev {
+    background: url(./img/GroupL.svg) 0 0 / 100% no-repeat;
+}
+
+.slider-next {
+    background: url(./img/GroupR.svg) 0 0 / 100% no-repeat;
+}
